@@ -8,6 +8,6 @@ def binarySerch(array,key,lower_bound,upper_bound):
         elif(array[middle]>key):
             return binarySearch(array,key,lower_bound,middle)#[lower_bound,middle)
         else:
-            return binarySearch(array,key,middel,upper_bound)
+            return binarySearch(array,key,middle,upper_bound)
 
 
